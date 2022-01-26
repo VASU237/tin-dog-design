@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.abc{
+    position: relative;
+}
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+h1,h2,h3{
+    font-family:'Montserrat-Bold' ;
+    font-weight: bold;
+}
+h2{
+    line-height: 2;
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.heading-title{
+    font-family: 'Montserrat, sans-serif';  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;
+    color: #FFF;
+}
+p{
+    color: #8f8f8f;
+}
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-item{
+    font-size: 1.5rem;
+    font-family: 'Montserrat-light';
+}
+
+
+/* button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin: auto auto -12rem 50px;
+  }
+
+
+#features{
+
+    padding: 7% 20%;
+  
+    background-color: white;
+  
+    position: relative;
+  
+  }
+.feature-box{
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}    
+.icon:hover{
+    color: #ff4c68;
+}
+
+                              /* testimonials section */
+#testimonials{
+    background-color: #ef8172;
+    color: #FFF;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+                            /* press section  */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+
+/* pricing section  */
+#pricing{
+    padding: 100px;
+}
+.price-col{
+    text-align: center;
+    padding: 2% 3%;
+}
+.price-button{
+    width: 100%;
+}
+.container-fluid{
+    padding: 3% 15% 7%;;
+}
+
+
+
+
+/* cta section  */
+#cta{
+    background-color: #ff4c68;
+    color: #FFF;
+    padding: 7% 15%;
+
+}
+.cta-heading{
+    font-size: 3.5rem;
+    font-family: "Montserrat-dark";
+    line-height: 1.5;
+}
+
+/* footer section   */
+
+#footer{
+    padding: 7% 15%;
+}
+
+
+
+.social-media{
+    margin: 0 10px ;
+}
+
+.socia-lakahn{
+    margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }    
+    #title{
+        text-align: center;
+        
+    }
+}
